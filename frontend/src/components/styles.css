@@ -1,0 +1,51 @@
+.nav{
+    padding: 15px;
+    background: white;
+    box-shadow: 0 3px 6px 0 rgba(50,50,50.3);
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+.listItem{
+    text-decoration: none;
+    margin-left: 10px;
+    position: relative;
+    left: 40%;
+}
+
+.image{
+    max-height: 400px;
+}
+
+.abt{
+    left: 43%;
+}
+.rootStyle{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 2px;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    outline: none;
+    transition: border 0.24s ease-in-out;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.cardConatiner{
+    max-width: 80%;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.info{
+    margin-bottom: 5%;
+    max-height: 800px;
+    min-height: 200px;
+}
